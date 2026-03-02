@@ -7,6 +7,7 @@ import Navbar from "./components/layout/Navbar/Navbar.jsx";
 import "./assets/App.css";
 import Shop from "./pages/Shop.jsx";
 import About from "./pages/About.jsx";
+import Contact from "./pages/Contact.jsx";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/about" element={<About />} />
-          
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>
