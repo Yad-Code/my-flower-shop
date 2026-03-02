@@ -44,7 +44,7 @@ export default function Review() {
         {/* Bottom CTA (Optional) */}
         <div className="mt-16 text-center">
           <p className="text-slate-400 text-sm font-medium tracking-widest uppercase">
-            Best Handmade Artistry — Shop Our Collection Now
+            Best Handmade Flowers — Shop Our Collection Now
           </p>
         </div>
       </div>

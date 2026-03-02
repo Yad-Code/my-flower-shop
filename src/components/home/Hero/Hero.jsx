@@ -33,13 +33,13 @@ export default function Hero() {
 
           {/* Actions */}
           <div className="flex flex-wrap gap-4">
-            <button className="group flex items-center gap-2 bg-rose-500 hover:bg-rose-600 text-white px-8 py-4 rounded-full font-semibold transition-all shadow-lg shadow-rose-200 active:scale-95">
+            <a href="/shop" className="cursor-default"><button className="group flex items-center gap-2 bg-rose-500 hover:bg-rose-600 text-white px-8 py-4 rounded-full font-semibold transition-all shadow-lg shadow-rose-200 active:scale-95">
               Shop Collection
               <ArrowRight
                 size={18}
                 className="group-hover:translate-x-1 transition-transform"
               />
-            </button>
+            </button></a>
             <button className="px-8 py-4 rounded-full font-semibold text-slate-700 hover:bg-white transition-colors border border-transparent hover:border-rose-100">
               Our Story
             </button>

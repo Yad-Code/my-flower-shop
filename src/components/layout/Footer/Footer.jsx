@@ -34,10 +34,10 @@ export default function Footer() {
 
         {/* 3. Socials & Contact */}
         <div className="flex items-center gap-8 mb-12">
-          <a href="#" className="hover:text-rose-400 transition-colors">
+          <a href="https://www.instagram.com/doubleadesignn?igsh=MWYxNzE1ZXhxYmYwag%3D%3D&utm_source=qr" target="_blank" className="hover:text-rose-400 transition-colors">
             <Instagram size={22} strokeWidth={1.5} />
           </a>
-          <a href="#" className="hover:text-rose-400 transition-colors">
+          <a href="https://www.facebook.com/share/17ysfA9wpt/?mibextid=wwXIfr" target="_blank" className="hover:text-rose-400 transition-colors">
             <Facebook size={22} strokeWidth={1.5} />
           </a>
           <a href="mailto:hello@doublea.com" className="hover:text-rose-400 transition-colors">

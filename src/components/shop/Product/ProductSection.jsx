@@ -29,8 +29,8 @@ export default function ProductSection() {
             </p>
           </div>
 
-          <button className="flex items-center gap-2 text-slate-900 font-medium hover:text-rose-500 transition-colors group">
-            View All Products
+          <button className="flex items-center gap-2 text-slate-900 font-medium hover:text-rose-500 transition-colors group" >
+            <a href="/shop">View All Products</a>
             <ArrowRight
               size={18}
               className="group-hover:translate-x-1 transition-transform"
