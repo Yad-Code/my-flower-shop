@@ -1,10 +1,12 @@
 import "./assets/App.css";
-import Navbar from "./components/Navbar";
+import Hero from "./components/home/Hero/Hero.jsx";
+import Navbar from "./components/layout/Navbar/Navbar.jsx";
 
 function App() {
   return (
     <>
       <Navbar />
+      <Hero />
     </>
   );
 }
