@@ -15,35 +15,36 @@ export default function Review() {
           </h2>
           <div className="w-24 h-1 bg-rose-200 mx-auto rounded-full" />
           <p className="text-slate-500 max-w-lg mx-auto text-lg">
-            Real reviews from people who love our handmade flowers and unique paper artistry.
+            Real reviews from people who love our handmade flowers and unique
+            paper artistry.
           </p>
         </div>
 
         {/* Review Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
-          <ReviewCard 
-            name="Sarah M." 
-            category="Nursery Decor" 
-            text="The felt flowers I purchased for my daughter's nursery are perfect. The quality is exceptional and the colors are so vibrant." 
-          />
-          
-          <ReviewCard 
-            name="James L." 
-            category="Wedding Gift" 
-            text="The attention to detail is breathtaking. These paper lilies became the centerpiece of our dining room instantly. Highly recommend!" 
+          <ReviewCard
+            name="Sarah M."
+            category="Nursery Decor"
+            text="The felt flowers I purchased for my daughter's nursery are perfect. The quality is exceptional and the colors are so vibrant."
           />
 
-          <ReviewCard 
-            name="Elena R." 
-            category="Home Office" 
-            text="Perfect for someone who forgets to water plants. Fast shipping and even better quality than the photos." 
+          <ReviewCard
+            name="James L."
+            category="Wedding Gift"
+            text="Very Special! I saw it for the first time and it looked amazing."
+          />
+
+          <ReviewCard
+            name="Elena R."
+            category="Home Office"
+            text="Perfect for someone who forgets to water plants. Fast shipping and even better quality than the photos."
           />
         </div>
 
         {/* Bottom CTA (Optional) */}
         <div className="mt-16 text-center">
           <p className="text-slate-400 text-sm font-medium tracking-widest uppercase">
-            Over 500+ Five-Star Reviews
+            Best Handmade Artistry — Shop Our Collection Now
           </p>
         </div>
       </div>
