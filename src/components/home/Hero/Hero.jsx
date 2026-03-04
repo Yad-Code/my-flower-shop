@@ -40,9 +40,10 @@ export default function Hero() {
                 className="group-hover:translate-x-1 transition-transform"
               />
             </button></a>
+            <a href="/about">
             <button className="px-8 py-4 rounded-full font-semibold text-slate-700 hover:bg-white transition-colors border border-transparent hover:border-rose-100">
               Our Story
-            </button>
+            </button></a>
           </div>
 
           {/* Stats */}
@@ -74,7 +75,7 @@ export default function Hero() {
           <div className="relative aspect-square overflow-hidden rounded-2xl shadow-2xl">
             <img
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-              src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1200&q=80"
+              src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=800&q=80"
               alt="Artisanal handmade flowers"
             />
           </div>

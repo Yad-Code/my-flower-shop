@@ -56,7 +56,14 @@ export default function AboutSection() {
 
         {/* Optional: Simple Call to Action */}
         <div className="mt-20 text-center">
-          <button className="text-sm font-bold uppercase tracking-[0.3em] text-slate-400 hover:text-rose-500 transition-colors border-b border-rose-100 pb-2">
+          <button
+            className="text-sm font-bold uppercase tracking-[0.3em] text-slate-400 hover:text-rose-500 transition-colors border-b border-rose-100 pb-2"
+            onClick={() =>
+              document
+                .getElementById("process")
+                .scrollIntoView({ behavior: "smooth" })
+            }
+          >
             Learn More About Our Process
           </button>
         </div>

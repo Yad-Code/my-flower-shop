@@ -10,7 +10,7 @@ export default function ProcessSection() {
   ];
 
   return (
-    <section className="py-24 px-6 bg-[#FAF9F6]"> 
+    <section className="py-24 px-6 bg-[#FAF9F6]" id="process"> 
       <div className="max-w-7xl mx-auto">
         <div className="mb-20 text-center md:text-left max-w-2xl">
           <h4 className="text-[10px] uppercase tracking-[0.4em] text-stone-400 font-bold mb-3">Our Craftsmanship</h4>
