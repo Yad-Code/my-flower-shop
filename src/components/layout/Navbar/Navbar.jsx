@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import logo from "../../../assets/DoubleA.svg";
+
 import {
   ShoppingBag,
   Menu as MenuIcon,
